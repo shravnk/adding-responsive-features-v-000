@@ -47,5 +47,14 @@
     margin-left: 0;
     float: none;
   }
-  border-right: 0;
+  border-right {
+    border: 0;
+}
+#details div {
+  height: auto;
+  .col-3 p {
+    column-count: 1;
+  }
+  
+}
 }
